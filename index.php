@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Put Content Here">
     <meta name="keywords" content="Put keywords here">
-    <meta name="author" content="Put your name here">
+    <meta name="author" content="Ibrahim aljayab">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Website Title goes here</title>
