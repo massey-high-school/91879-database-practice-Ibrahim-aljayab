@@ -4,12 +4,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Put Content Here">
-    <meta name="keywords" content="Put keywords here">
+    <meta name="description" content="Book Review Database">
+    <meta name="keywords" content="books, reading, fiction, non-fiction, genre, reviews ">
     <meta name="author" content="Ibrahim aljayab">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Website Title goes here</title>
+    <title>Nexus Book Reviews</title>
     
     <!-- Edit the link below / replace with your chosen google font -->
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
@@ -35,7 +35,7 @@
             </div>    <!-- / logo -->
         </a>
             
-            <h1>Website Name</h1>
+            <h1>Orichid Reading</h1>
         </div>    <!-- / banner -->
 
         <!-- Navigation goes here.  Edit BOTH the file name and the link name -->
@@ -49,9 +49,16 @@
         
         <div class="box side">
         
-            Side bar / search goes here
+        <h2>Side Bar</h2>
+            <p>items go here</p>
             
-        </div>
+            <ul>
+                <li>Here</li>
+                <li> is</li>
+            </ul>
+            
+            
+        </div> <!-- / side bar -->
         
         <div class="box main">
             <h2>First Page heading</h2>
