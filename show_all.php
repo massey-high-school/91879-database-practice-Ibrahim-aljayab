@@ -41,29 +41,32 @@ $count=mysqli_num_rows($showall_query);
             
                         <div class="results">
             
-            <p>Title: <span class="sub_heading"><?php echo $showall_rs['Title']; ?></span>
+            <p>Title: <span class="sub_heading"><?php echo 
+            $showall_rs['Title']; ?></span></p>
+            
+            <p>Author: <span class="sub_heading"><span class="sub_heading"><?php echo 
+            $showall_rs['Author']; ?></span></span>
                 </p>
             
-            <p>Author: <span class="sub_heading">author holder</span>
+            <p>Genre: <span class="sub_heading"><?php echo $showall_rs['Genre']; ?></span>
                 </p>
             
-            <p>Genre: <span class="sub_heading">genre holder</span>
-                </p>
-            
-            <p>Rating: <span class="sub_heading">rating holder</span>
+            <p>Rating: <span class="sub_heading"><?php echo $showall_rs['Rating']; ?></span>
                 </p>
             
             <p><span class="sub_heading">Review / Response</span></p>
             
             <p>
-                Review Placeholder
+                Review : <span class="sub_heading"><?php echo 
+            $showall_rs['Review']; ?></span>
+                
             </p>
             
             <?php
                     
-                } // end of 'do'
+              } // end of 'do'
                 
-                while(showall_rs=mysqli_fetch_assoc($showall_query));
+              while($showall_rs=mysqli_fetch_assoc($showall_query));
                 
             } // and else
             

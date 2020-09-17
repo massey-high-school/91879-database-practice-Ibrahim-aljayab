@@ -5,7 +5,7 @@
 <?php
     
     session_start();
-    include("config.php")
+    include("config.php");
     
     // Connect to database
     
